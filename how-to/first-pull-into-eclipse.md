@@ -15,7 +15,7 @@ Exit Eclipse and open up the git bash shell or something similar:
 5. Navigate to your Eclipse workspace:
 
     ```bash
-    cd "C:\Users\YOUR_USERNAME\workspace\PROJECT_NAME"
+    cd "/c/Users/YOUR_USERNAME/workspace/PROJECT_NAME"
     ```
     Where `YOUR_USERNAME` is your username and `PROJECT_NAME` is the name of the    project you just created
 

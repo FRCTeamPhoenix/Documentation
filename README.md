@@ -8,4 +8,4 @@ This repository contains all information relevant to working on code for Team Ph
 - `code-style` — Important style information that all code in Team Phoenix repositories should use.
 - `eclipse` — Information about setting up Eclipse for robot development and using it efficiently.
 - `git` — Contains guidelines for committing to Team Phoenix repositories, and provides a quick reference if you ever run into problems with Github or git.
-- `how-to` — Quick reference guides on how to very specific things.
+- `how-to` — Quick reference guides on how to do very specific things.

@@ -1,3 +1,5 @@
+**Relevant for all years**
+
 # Editing the FRC Dashboard
 #### Note: Steps are Windows Specific
 

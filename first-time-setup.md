@@ -116,7 +116,7 @@ Eclipse is the development environment supported by FIRST, so it's what we use f
   - Select `BSD/Allman [built-in]`, then hit "Edit"
   - At the top of profile editing screen, rename the profile to something else, like "Phoenix Robotics" or "Team 2342"
   - Under general settings, change the tab policy to spaces only, and keep the indentation size at 4
-  - Under indent, make sure that all of the options are checked except for "Empty lines".
+  - Under indent, make sure that all of the options are checked except for "Empty lines" and "Declarations within 'namespace' definition".
   - Hit OK and then OK again to close all windows
 
 ## FRC Toolchain

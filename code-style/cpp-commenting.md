@@ -37,6 +37,7 @@ Before:
 if (m_lidar->getFastAverage() < AimingConstants::aimedDistance - AimingConstants::distanceVariance){
     m_driveTrainController->moveRobotStraight(-6,0.5f);
 }
+// Otherwise we get to move in the opposite direction
 else if (m_lidar->getFastAverage() > AimingConstants::aimedDistance + AimingConstants::distanceVariance){
     m_driveTrainController->moveRobotStraight(6,0.5f);
 }

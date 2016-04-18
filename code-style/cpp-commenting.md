@@ -33,7 +33,7 @@ Comments should be kept brief and impersonal, and the use of first and second pe
 Before:
 
 ```C++
-// Decide if we need to move forward or backwards
+// Figure out which direction we should move in
 if (m_lidar->getFastAverage() < AimingConstants::aimedDistance - AimingConstants::distanceVariance){
     m_driveTrainController->moveRobotStraight(-6,0.5f);
 }
@@ -41,7 +41,7 @@ else if (m_lidar->getFastAverage() > AimingConstants::aimedDistance + AimingCons
     m_driveTrainController->moveRobotStraight(6,0.5f);
 }
 
-// We're done approaching and can move to the next phase we need!
+// Done approaching! Do other stuff depending on what the user wants. Uses the state machine to advance to the next stage, we do this because it is awsome
 else {
 
     hasApproached=true;

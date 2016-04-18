@@ -1,3 +1,5 @@
+**Relevant for all years**
+
 # First Pull Into an Eclipse Project
 #### Instructions for Robot C++
 
@@ -15,7 +17,7 @@ Exit Eclipse and open up the git bash shell or something similar:
 5. Navigate to your Eclipse workspace:
 
     ```bash
-    cd "C:\Users\YOUR_USERNAME\workspace\PROJECT_NAME"
+    cd "/c/Users/YOUR_USERNAME/workspace/PROJECT_NAME"
     ```
     Where `YOUR_USERNAME` is your username and `PROJECT_NAME` is the name of the    project you just created
 
@@ -27,7 +29,7 @@ Exit Eclipse and open up the git bash shell or something similar:
     
 7. Initialize git in your project directory. Replace the URL in the second line with the URL you get by pressing this button on the repository you want to pull from:
 
-    ![Screenshot of Copy to Clipboard Button](https://raw.githubusercontent.com/FRCTeamPhoenix/Documentation/master/how-to/resources/copy-to-clipboard.PNG)
+    ![Screenshot of Copy to Clipboard Button](https://raw.githubusercontent.com/FRCTeamPhoenix/Documentation/master/images/copy-to-clipboard.PNG)
     
     Now run these commands in order (The URL being used for example purposes is from the Phoenix2016 repository):
     

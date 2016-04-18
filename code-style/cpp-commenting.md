@@ -84,6 +84,9 @@ else {
     
 }
 ```
+### Robot Specific Functions
+
+When writing a function that will interact directly with the robot such as drive a motor, turn the robot or move a mechanism there is additionally information that needs to be given. With a robot specific function there should be a block comment above that describes the functions, describes the parameters given and the expected values of those parameters. This is to give information about the real world limits of function where those limits may not be easily seen. This comment can be places in either the header file where the function is defined, or the the source file where it is implemented. 
 
 ### Disclaimer
 

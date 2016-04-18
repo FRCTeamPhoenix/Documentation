@@ -10,4 +10,4 @@ This repository contains all information relevant to working on code for Team Ph
 - `how-to` — Quick reference guides on how to do very specific things.
 - `images` — Screenshot or image storage for use in other guides
 
-Also, make sure to look at the `first-time-setup.md` guide for setting up our toolchain on a new computer as well as the `eclipse-shortcuts.md` reference for the most important Eclipse shortcuts.
+Also, make sure to look at the `first-time-setup.md` guide for setting up the FRC toolchain on a new computer.

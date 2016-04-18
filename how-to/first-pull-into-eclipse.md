@@ -38,8 +38,6 @@ Exit Eclipse and open up the git bash shell or something similar:
     git checkout -t origin/master
     ```
     
-8. You can now run `git status` to check that this guide was successsful:
+8. Reopen Eclipse and right click on your project. Select `Team --> Share Project`, hit next, then hit finish.
 
-    ```bash
-    git status
-    ```
+9. If you followed all of the steps correctly, you should now be able to right click the project in Eclipse, scroll down to `Team`, and perform various Git operations, such as pulling and pushing.

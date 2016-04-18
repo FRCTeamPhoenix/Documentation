@@ -2,6 +2,17 @@
 
 In order to keep code formatting consistent across all files and projects created by the Team 2342 coding subteam, all C++ code submitted to official repositories must follow all or very close to all of the guidelines presented in these documents. Note that this policy is in effect starting with the 2017 build season, so code from before then may not represent proper code style. Please bring any concerns or questions you have to the leadership.
 
+### Brackets
+
+There are many different ways of using brackets in C++, but for the purposes of projects related to robotics, we follow the convention of putting brackets on new lines, and always including them, even for single line if statements. For bracketed blocks that contain larger blocks of code, we also recommend putting blank lines between the top and bottom brackets. Here is an example of a single line if statement:
+
+```C++
+if (true)
+{
+    //do something
+}
+```
+
 ### Intelligent Use of Spacing
 
 One of the easiest and most impactful changes you can make to your code styling are the way you use whitespace. We advise that you put spaces between all operators, brackets, and commands. Even if they aren't required. Here are some before and after examples:
@@ -62,15 +73,4 @@ int doSomethingComplicated (VeryLongType sourceData, // you can add comments her
 
 ### Indentation
 
-When many developers use different methods of indentation, it can make code very hard to maintain. In order to keep everything consistent and make copying and pasting code easier, the Team Phoenix subteam (from the 2017 build season onwards) uses four space indentation. Do not attempt to commit code that uses tabs characters to any repository. To set up proper four space tabs in Eclipse, see the code style section of the `eclipse-setup` guide in the `eclipse` folder.
-
-### Brackets
-
-There are many different ways of using brackets in C++, but for the purposes of projects related to robotics, we follow the convention of putting brackets on new lines, and always including them, even for single line if statements. For bracketed blocks that contain larger blocks of code, we also recommend putting blank lines between the top and bottom brackets. Here is an example of a single line if statement:
-
-```C++
-if (true)
-{
-    //do something
-}
-```
+When many developers use different methods of indentation, it can make code very hard to maintain. In order to keep everything consistent and make copying and pasting code easier, the Team Phoenix subteam (from the 2017 build season onwards) uses four space indentation. Additionally, public/private/protected blocks as well as case statements are should indented. Do not attempt to commit code that does not follow these conventions. To set up proper code style in Eclipse, see the code style section of the Eclipse installation guide under `first-time-setup.md`.

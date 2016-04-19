@@ -42,7 +42,8 @@ class LoaderController {}
 Considering `enum` declarations in C++ look much like any variable declaration, naming them can be confusing. We suggest naming enums the same way you name classes. The first letter of each word should be capitalized. Fields inside the enum should follow the same convention as constants. Here is an example enum:
 
 ```C++
-enum ButtonNames {
+enum ButtonNames 
+{
    BUTTON_X,              // = 0
    BUTTON_A,              // = 1
    BUTTON_B,              // = 2

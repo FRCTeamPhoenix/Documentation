@@ -26,6 +26,10 @@ of interest, thus we have used the more complex, but faster method even though t
 does not at first seem amenable to a string search technique. */
 ```
 
+#### Function and Class Comments
+
+In addition to comments describing why code works, there should be a short description above every class and function describing what it does and how to use it. This includes describing what the parameters of the function do. Robot specific functions, such as ones that turn motors or move mechanisms, should also include a section in their description describing what the limits of the functions of are in the real world. For example, some mechanisms can only be moved so far, and you don't want someone trying to call the function that moves that mechanism further than it's supposed to go.
+
 ### Form of a Comment
 
 Comments should be kept brief and impersonal, and the use of first and second person should generally be avoided. For example, combining this knowledge with the previous section, here is a before and after for a block of code.
@@ -84,9 +88,6 @@ else {
     
 }
 ```
-### Robot Specific Functions
-
-When writing a function that will interact directly with the robot such as drive a motor, turn the robot or move a mechanism there is additionally information that needs to be given. With a robot specific function there should be a block comment above that describes the functions, describes the parameters given and the expected values of those parameters. This is to give information about the real world limits of function where those limits may not be easily seen. This comment can be places in either the header file where the function is defined, or the the source file where it is implemented. 
 
 ### Disclaimer
 

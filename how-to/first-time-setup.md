@@ -92,9 +92,9 @@ The development environment we use, Eclipse, is built on Java, which means that 
 
 Eclipse is the development environment supported by FIRST, so it's what we use for all robot development. These steps will guide you through getting it set up for the first time. The steps are mostly the same for all operating systems, so there won't be any categories.
 
-1. Download the appropriate installer for your operating system from [here](https://eclipse.org/downloads/index.php?show_instructions=TRUE)
+1. Download the appropriate installer for your operating system from [here](https://www.eclipse.org/downloads/packages/eclipse-ide-cc-developers/mars2)
 
-2. Run the executable, and install Eclipse. Make sure you select "Eclipse IDE for C/C++ Developers" when prompted to make a choice
+2. Run the executable, and follow the steps to install Eclipse.
 
 3. Eclipse should be installed. Open it to configure settings
 

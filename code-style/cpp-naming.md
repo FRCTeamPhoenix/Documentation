@@ -68,3 +68,16 @@ enum ButtonNames
 ### Namespaces
 
 Names of namespaces should be all lowercase, and use no abbreviated terms or symbols. Top level namespaces should be related to the project and/or team name.
+
+### Robot Specific
+
+In addition to general C++ naming conventions, robot specific conventions also need to be defined. For example, on a robot with multiple wheels, it's useful to have a clearly defined convention for naming and abbreviating them. This order should also be used whenever referring to multiple wheels (e.g. for enums).
+
+```
+Front Right    -->      FR
+Front Left     -->      FL
+Middle Right   -->      MR
+Middle Left    -->      ML
+Back Right     -->      BR
+Back Left      -->      BL
+```

@@ -32,7 +32,7 @@ int Aiming::encoderDistanceToDegrees (int encoder1, int encoder2)
     int encoderTickDifference;
     double fractionOfCircumference;
     encoderTickDifference = encoder1 - encoder2;
-    encoderTickDifference /=2;
+    encoderTickDifference /= 2;
     fractionOfCircumference = (double) (encoderTickDifference / AimingConstants::circumferenceOfRotation);
     degrees = fractionOfCircumference * 360;
     return degrees;

@@ -14,7 +14,7 @@ Git is the [version control software](https://en.wikipedia.org/wiki/Version_cont
 
 #### Mac OS X
 
-1. Grab the Mac OS X installer from [here](http://brantsteele.net/hungergames/disclaimer.php)
+1. Grab the Mac OS X installer from [here](https://git-scm.com/download/mac)
 
 2. Open it, and go through the steps of installing with all of the default options
 

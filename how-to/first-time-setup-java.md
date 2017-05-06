@@ -120,7 +120,7 @@ In addition to a development enviroment for Java, in order to write code for FRC
 
    ![build.gradle](../images/bg.png)
 
-   This file should be up to date, excepting the default package. To fix this, simply change the number 0000 in the highlighted line to 2342.
+   This file should be up to date, excepting the default package. To fix this, simply change the number 0000 in the highlighted line to 2342. Additionally, change the number 5333 above this line to the team number associated with the roboRIO you expect to be deploying to. This number can be changed later on if necessary.
    
 5. After restarting IntelliJ, you should receive a prompt to import a Gradle project to your project. Click the hyperlink in this box and press OK. Wait for the import and downloads to finish, and your project is ready to be used for FRC code!
 

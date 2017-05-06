@@ -118,7 +118,7 @@ In addition to a development enviroment for Java, in order to write code for FRC
 
 4. Navigate to your project directory in Windows Explorer, and open the file build.gradle in a text editor of your choice. The contents of the file should look like: 
 
-   #TODO add an image of the build.gradle file
+   ![build.gradle](../images/bg.png)
 
    This file should be up to date, excepting the default package. To fix this, simply change the number 0000 in the highlighted line to 2342.
    

@@ -63,6 +63,12 @@ In order to program in Java, your computer is required to have a JDK, or Java De
   - Press the "New" button to create a new entry, and then enter the path to the `bin` folder inside of your Java installation. For Java 8 Update 64, this should be `C:\Program Files\Java\jdk1.8.0_74\bin`. However, yours may be slightly different.
   - Click "OK" on all of the settings windows to close them
   
+4. Set your JAVA_HOME variable:
+
+  - As with the PATH variable, navigate to the environment variables screen.
+  - Underneath the box of system variables at the bottom, click "New"
+  - Enter `JAVA_HOME` into the variable name box and the base directory of your JDK in the variable value box. For example, if you added `C:\Program Files\Java\jdk1.8.0_74\bin` to your PATH variable, enter `C:\Program Files\Java\jdk1.8.0_74" in the box.
+  
 #### Mac OS X
 
 1. Download the latest Mac OS X JDK from [here](http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html)

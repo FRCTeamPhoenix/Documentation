@@ -1,14 +1,14 @@
 **Relevant for all years**
 
 # First Pull Into an Eclipse Project
-#### Instructions for Robot C++
+#### Instructions for Robot Java
 
 These steps will allow you to set up an Eclipse project that will be synced with a team repository, letting you pull from it and commit changes. This assumes that the Eclipse workspace is at `C:\Users\YOUR_USERNAME\workspace`, where `YOUR_USERNAME` is your username. It also assumes that you can connect to `github.com`. Git Bash is the shell used for these steps and the example repository that we'll pull will be [Phoenix2016](https://github.com/FRCTeamPhoenix/Phoenix2016).
 
 In Eclipse:
 
 1. Go to `File --> New --> Project`
-2. Choose "Example Robot C++ Project" and pick a simple example, like "Mecanum Drive". The actual project doesn't matter, we'll be deleting the source files before we pull
+2. Choose "Example Robot Java Project" and pick a simple example, like "Mecanum Drive". The actual project doesn't matter, we'll be deleting the source files before we pull
 3. Click next, and use the name of the repository you want to pull as the name of the project
 4. Click finish.
 

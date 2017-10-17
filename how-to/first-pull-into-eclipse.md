@@ -3,7 +3,7 @@
 # First Pull Into an Eclipse Project
 #### Instructions for Robot Java
 
-These steps will allow you to set up an Eclipse project that will be synced with a team repository, letting you pull from it and commit changes. This assumes that the Eclipse workspace is at `C:\Users\YOUR_USERNAME\workspace`, where `YOUR_USERNAME` is your username. It also assumes that you can connect to `github.com`. Git Bash is the shell used for these steps and the example repository that we'll pull will be [Phoenix2016](https://github.com/FRCTeamPhoenix/Phoenix2016).
+These steps will allow you to set up an Eclipse project that will be synced with a team repository, letting you pull from it and commit changes. This assumes that the Eclipse workspace is at `C:\Users\YOUR_USERNAME\workspace`, where `YOUR_USERNAME` is your username. It also assumes that you can connect to `github.com`. Git Bash is the shell used for these steps and the example repository that we'll pull will be [Tester-Playground](https://github.com/FRCTeamPhoenix/Tester-Playground).
 
 In Eclipse:
 
@@ -24,18 +24,18 @@ Exit Eclipse and open up the git bash shell or something similar:
 6. Remove the sample code from the project, since we're pulling everything off of GitHub:
 
     ```bash
-    rm src/Robot.cpp
+    rm src/Robot.java
     ```
     
 7. Initialize git in your project directory. Replace the URL in the second line with the URL you get by pressing this button on the repository you want to pull from:
 
     ![Screenshot of Copy to Clipboard Button](https://raw.githubusercontent.com/FRCTeamPhoenix/Documentation/master/images/copy-to-clipboard.PNG)
     
-    Now run these commands in order (The URL being used for example purposes is from the Phoenix2016 repository):
+    Now run these commands in order (The URL being used for example purposes is from the Tester-Playground repository):
     
     ```bash
     git init
-    git remote add origin https://github.com/FRCTeamPhoenix/Phoenix2016.git
+    git remote add origin https://github.com/FRCTeamPhoenix/Tester-Playground.git
     git fetch
     git checkout -t origin/master
     ```

@@ -49,11 +49,11 @@ Once you have a working, tested piece of robot code, you are ready to create a *
 
 ![pull request](https://raw.githubusercontent.com/FRCTeamPhoenix/Documentation/master/images/pull-request.png)
 
-2a. If your pull request window says "Can't automatically merge", it is likely that you have not synced your fork correctly. Make sure to follow this process first.
+*Note:* If your pull request window says "Can't automatically merge", it is likely that you have not synced your fork correctly. Make sure to follow this process first.
 
 3. Click 'Create Pull Request' again and give your pull request a title and body based on the template given. *Be descriptive!*
 
-4. A reviewer will be notified of your pull request and review it as soon as possible. Reviewers are:
+4. A reviewer will be notified of your pull request and review it as soon as possible. Reviewers this year are:
 
 * [Andrew](https://github.com/denver-blake)
 

@@ -1,12 +1,12 @@
 # Maintaining Personal/Group Forks
 
-In order to maintain a clean central repository, individual programmers can store forks of the central repository to write code in. This document outlines the process required to make this model function.
+In order to maintain a clean central repository, individual programmers can store forks of the central repository to write code in. This document outlines the process required to make this model work.
 
 ## Creating a fork
 
 1. Navigate to the central repository via GitHub, and click the 'Fork' button in the top right hand corner of the screen. This will automatically generate a copy of the repository under your name.
 
-2. Follow the steps laid out in [this document] (first-pull-into-eclipse.md) to clone the fork on your computer.
+2. Follow the steps laid out in [this document](first-pull-into-eclipse.md) to clone the fork on your computer.
 
 3. In your git bash terminal, create a second remote called upstream that points to the central repository, for example:
 
@@ -55,19 +55,19 @@ Once you have a working, tested piece of robot code, you are ready to create a *
 
 4. A reviewer will be notified of your pull request and review it as soon as possible. Reviewers this year are:
 
-* [Andrew](https://github.com/denver-blake)
+	* [Andrew](https://github.com/denver-blake)
 
-* [Ian](https://github.com/IanCoolidge0) 
+	* [Ian](https://github.com/IanCoolidge0) 
 
 5. Your pull request will be tested in various ways, which will be described in the repository's README file. These include, but are not limited to:
 
-* Build test (does it compile correctly with our libraries?)
+	* Build test (does it compile correctly with our libraries?)
 
-* Robot test if applicable (does it do what you said it does in the description?)
+	* Robot test if applicable (does it do what you said it does in the description?)
 
-* Encapsulation (are central files such as Robot.java and Constants.java mostly unchanged?)
+	* Encapsulation (are central files such as Robot.java and Constants.java mostly unchanged?)
 
-* Readability (is your code easy to understand?)
+	* Readability (is your code easy to understand?)
 
 6. If all of these standards are met, your pull request will be merged. Congratulations! If one or more of these standards are not met, we will close the pull request and contact you so you can fix the changes.
 

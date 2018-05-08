@@ -47,7 +47,7 @@ Once you have a working, tested piece of robot code, you are ready to create a *
 
 2. Create your pull request by navigating to your fork on GitHub, and pressing the 'Create Pull Request' button. This will take you to a screen as shown where you can choose the branch in your fork you are using as well as the branch in the central repository you are merging into.
 
-![pull request][https://github.com/FRCTeamPhoenix/Documentation/images/pull-request.png]
+![pull request](https://github.com/FRCTeamPhoenix/Documentation/images/pull-request.png)
 
 2a. If your pull request window says "Can't automatically merge", it is likely that you have not synced your fork correctly. Make sure to follow this process first.
 

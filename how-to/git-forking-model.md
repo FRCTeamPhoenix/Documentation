@@ -6,7 +6,7 @@ In order to maintain a clean central repository, individual programmers can stor
 
 1. Navigate to the central repository via GitHub, and click the 'Fork' button in the top right hand corner of the screen. This will automatically generate a copy of the repository under your name.
 
-2. Follow the steps laid out in [this document](first-pull-into-eclipse.md) to clone the fork on your computer.
+2. Follow the steps laid out in [this document](first-time-setup-vscode.md) to clone the fork on your computer.
 
 3. In your git bash terminal, create a second remote called upstream that points to the central repository, for example:
 

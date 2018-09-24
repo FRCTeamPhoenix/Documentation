@@ -15,4 +15,20 @@ To clone a repository in vscode, open the command palette by pressing Ctrl+Shift
 
 To use other git commands in vscode, open the command palette by pressing Ctrl+Shift+P (Cmd+Shift+P on Mac). Type in "Git:" and the command name or go to the source control tab
 
+## External Dependencies
+
+Team Phoenix projects should contain a `lib/` directory at the top level. To add an external jar to your classpath (such as Jackson libraries), add the jar file to this directory. A correctly set-up project should add the library automatically to the classpath.
+
+
+#### Setting Up External Dependencies
+
+As the initial creator (i.e. owner) of a project, when creating the project add a `lib/` directory **AND** add the following line to `build.gradle`:
+
+`compile fileTree(include: ['*.jar'], dir: 'libs')`
+
+The resulting `build.gradle` should have this block:
+
+![Screenshot of build.gradle dependencies]
+(https://raw.githubusercontent.com/FRCTeamPhoenix/Documentation/master/images/external-dependencies.PNG)
+
 

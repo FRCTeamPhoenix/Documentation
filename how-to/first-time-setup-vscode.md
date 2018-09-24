@@ -23,7 +23,7 @@ Team Phoenix projects should contain a `lib/` directory at the top level. To add
 
 As the initial creator (i.e. owner) of a project, when creating the project add a `lib/` directory **AND** add the following line to `build.gradle`:
 
-`compile fileTree(include: ['*.jar'], dir: 'libs')`
+`compile fileTree(include: ['*.jar'], dir: 'lib')`
 
 The resulting `build.gradle` should have this block:
 

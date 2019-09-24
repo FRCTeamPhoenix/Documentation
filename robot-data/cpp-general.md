@@ -73,4 +73,17 @@ int doSomethingComplicated (VeryLongType sourceData, // you can add comments her
 
 ### Indentation
 
-When many developers use different methods of indentation, it can make code very hard to maintain. In order to keep everything consistent and make copying and pasting code easier, the Team Phoenix subteam (from the 2017 build season onwards) uses four space indentation. Additionally, public/private/protected blocks as well as case statements are should indented. Do not attempt to commit code that does not follow these conventions. To set up proper code style in Eclipse, see the code style section of the Eclipse installation guide under `first-time-setup.md`.
+When many developers use different methods of indentation, it can make code very hard to maintain. In order to keep everything consistent and make copying and pasting code easier, the Team Phoenix subteam (from the 2017 build season onwards) uses space indentation. Additionally, public/private/protected blocks as well as case statements should be indented. Do not attempt to commit code that does not follow these conventions. VS Code automatically assumes a 2 space tab. Always indent when entering a smaller scope.
+
+```C++
+void myFunction ()
+{
+    //indented
+    if (true)
+    {
+        //indented again
+        
+    }
+}
+
+```

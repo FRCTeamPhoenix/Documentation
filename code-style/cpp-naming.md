@@ -26,12 +26,6 @@ const static uint32_t FR_WHEEL_MOTOR = 2; // front right
 const static uint32_t BR_WHEEL_MOTOR = 3; // back right
 ```
 
-Pointers should be declared with the asterisk directly after the type, and should begin with the prefix `ptr_`. Consider this example:
-
-```C++
-int* ptr_speed = &speed
-```
-
 ### Classes
 
 Naming classes is much like naming functions and variables. However, the first letter of the class name should also be capitalized. Examples:
